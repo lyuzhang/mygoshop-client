@@ -1,11 +1,12 @@
 <template>
   <section class="profile">
-    <header class="header">
+    <NavHeader title="我的"/>
+   <!-- <header class="header">
       <a class="header_title">
         <span class="header_title_text">我的</span>
       </a>
-    </header>
-    <section class="profile-number">
+    </header>-->
+    <section class="profile-number" @click="$router.push('/login')">
       <a href="javascript:" class="profile-link">
         <div class="profile_image">
           <i class="iconfont icon-person"></i>
